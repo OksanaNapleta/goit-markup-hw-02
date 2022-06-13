@@ -1,0 +1,148 @@
+:root{
+    /* fonts */
+    --main-font:"Roboto";
+    --secondary-font:"Raleway";
+    /* text colors */
+    --accent-color: #2196F3;
+    --black-txt-clr: #212121;
+    --btn-clr: #F5F4FA;
+    /* bgcolors */
+    /* others */
+}
+
+body{
+font-family: var(--main-font), sans-serif;
+font-size: 14px;
+line-height: 1.71;
+}
+
+/*Common styles start*/
+.link{
+    text-decoration: none;
+}
+.list{
+    list-style: none;
+}
+.btn-main{
+font-weight: 700;
+font-size: 16px;
+line-height: 1.88;
+display: flex;
+align-items: center;
+text-align: center;
+letter-spacing: 0.06em;
+
+color: #FFFFFF;
+}
+.btn-main:hover,
+.btn-main:focus{
+background-color: var(--accent-color);
+color: var(--btn-clr);
+cursor: pointer;
+}
+.btn:hover,
+.btn:focus{
+font-weight: 500;
+font-size: 16px;
+line-height: 1.62;
+text-align: center;
+letter-spacing: 0.03em;
+
+background-color: var(--accent-color);
+color: var(--btn-clr);
+cursor: pointer;
+}
+.header-contact:hover,
+.header-contact:focus{
+color: var(--accent-color);
+cursor: pointer;
+}
+.uppertitle{
+font-weight: 500;
+font-size: 14px;
+line-height: 1.14;
+letter-spacing: 0.02em;
+color: #212121;
+}
+.big-section{
+font-weight: 700;
+font-size: 36px;
+line-height: 1.17;
+text-align: center;
+letter-spacing: 0.03em;
+
+color: #212121;
+
+}
+.small-section{
+font-weight: 700;
+font-size: 14px;
+line-height: 1.14;
+letter-spacing: 0.03em;
+text-transform: uppercase;
+color: #212121;
+}
+.description{
+font-weight: 400;
+font-size: 14px;
+line-height: 1.71;
+letter-spacing: 0.03em;
+color: #757575;
+}
+.description{
+font-weight: 400;
+font-size: 14px;
+line-height: 1.71;
+letter-spacing: 0.03em;
+color: #757575;
+}
+.main-title{
+font-weight: 900;
+font-size: 44px;
+line-height: 1.36;
+text-align: center;
+letter-spacing: 0.06em;
+text-transform: uppercase;
+color: red;
+}
+.logo{
+font-weight: 700;
+font-size: 26px;
+line-height: 1.19;
+letter-spacing: 0.03em;
+color: #2196F3;
+}
+/*Common styles end*/
+/*Header section*/
+.header{
+ background-color: #E5E5E5;
+}
+.header-link{
+font-weight: 500;
+font-size: 14px;
+line-height: 1.6;
+letter-spacing: 0.02em;
+color: var(--black-txt-clr)
+}
+
+.header-link:hover,
+.header-link:focus{
+color: var(--accent-color);
+}
+
+.header-contact{
+font-weight: 500;
+font-size: 14px;
+line-height: 1.6;
+letter-spacing: 0.02em;
+color: #757575;
+}
+
+/*Footer section*/
+.contacts{
+font-weight: 400;
+font-size: 14px;
+line-height: 1.71;
+letter-spacing: 0.03em;
+color: #FFFFFF;
+}
