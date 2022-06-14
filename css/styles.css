@@ -70,9 +70,7 @@ font-size: 36px;
 line-height: 1.17;
 text-align: center;
 letter-spacing: 0.03em;
-
 color: #212121;
-
 }
 .small-section{
 font-weight: 700;
@@ -88,6 +86,14 @@ font-size: 14px;
 line-height: 1.71;
 letter-spacing: 0.03em;
 color: #757575;
+}
+.title-description{
+font-weight: 700;
+font-size: 14px;
+line-height: 16px;
+letter-spacing: 0.03em;
+text-transform: uppercase;  
+color: #212121;    
 }
 .description{
 font-weight: 400;
@@ -111,6 +117,51 @@ font-size: 26px;
 line-height: 1.19;
 letter-spacing: 0.03em;
 color: #2196F3;
+}
+.studio{
+font-weight: 700;
+font-size: 26px;
+line-height: 1.19;
+
+color: #000000;
+}
+.team-name{
+font-weight: 500;
+font-size: 16px;
+line-height: 1.19;
+text-align: center;
+letter-spacing: 0.03em;
+color: #212121;
+}
+.job{
+font-weight: 400;
+font-size: 16px;
+line-height: 1.19;
+text-align: center;
+letter-spacing: 0.03em;
+color: #757575;
+}
+.poster-name{
+font-weight: 700;
+font-size: 18px;
+line-height: 20;
+letter-spacing: 0.06em;
+color: #212121;
+}
+.poster-description{
+font-weight: 400;
+font-size: 16px;
+line-height: 1.88;
+letter-spacing: 0.03em;
+color: #757575;
+}
+.button-list{
+font-weight: 500;
+font-size: 16px;
+line-height: 1.62;
+text-align: center;
+letter-spacing: 0.03em;
+color: #212121;
 }
 /*Common styles end*/
 /*Header section*/
