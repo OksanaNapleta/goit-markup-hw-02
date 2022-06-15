@@ -18,10 +18,13 @@ line-height: 1.71;
 
 /*Common styles start*/
 .link{
-    text-decoration: none;
+text-decoration: none;
 }
 .list{
-    list-style: none;
+list-style: none;
+}
+.header-link{
+text-decoration: none;
 }
 .btn-main{
 font-weight: 700;
@@ -31,7 +34,6 @@ display: flex;
 align-items: center;
 text-align: center;
 letter-spacing: 0.06em;
-
 color: #FFFFFF;
 }
 .btn-main:hover,
@@ -149,7 +151,6 @@ letter-spacing: 0.06em;
 color: #212121;
 }
 .poster-description{
-font-weight: 400;
 font-size: 16px;
 line-height: 1.88;
 letter-spacing: 0.03em;
@@ -175,18 +176,32 @@ line-height: 1.6;
 letter-spacing: 0.02em;
 color: var(--black-txt-clr)
 }
-
 .header-link:hover,
 .header-link:focus{
 color: var(--accent-color);
 }
-
 .header-contact{
 font-weight: 500;
 font-size: 14px;
 line-height: 1.6;
 letter-spacing: 0.02em;
 color: #757575;
+}
+.poster-name:hover,
+.poster-name:focus{
+color: var(--accent-color);
+}
+.poster-description:hover,
+.poster-description:focus{
+color: var(--accent-color);
+}
+.team-name:hover,
+.team-name:focus{
+color: var(--accent-color);
+}
+.job:hover,
+.job:focus{
+color: var(--accent-color);
 }
 
 /*Footer section*/
@@ -196,4 +211,8 @@ font-size: 14px;
 line-height: 1.71;
 letter-spacing: 0.03em;
 color: #FFFFFF;
+}
+.link:hover,
+.link:focus{
+color: var(--accent-color);
 }
